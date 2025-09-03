@@ -1,0 +1,23 @@
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.mother-box{
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+.box{
+  padding-left:10px ;
+  height: 100px;
+width: 70px;
+background-color: #ff9f1a;
+}
+
+.box-area{color: #fff;
+  background: #eb3b5a;
+  padding: 20px 15px;
+}
+button  { 
+  border: 0px;
+background-color: #fed330;
+color:#eb3b5a;
+border-radius: 5px;
+}
