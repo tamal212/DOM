@@ -1,0 +1,25 @@
+div{
+  height: 150px;
+  width: 230px;
+  background: #7f8c8d;
+  display: flex;
+  gap: 18px;
+  padding: 20px 15px;
+}
+div div{height: 30px; width: 25px; border-radius: 5px;}
+
+div .box1{
+  background:#1abc9c ;
+}
+div .box2{
+  background: #f1c40f;
+}
+div .box3{
+  background:#d35400;
+}
+div .box4{
+  background: #27ae60;
+}
+div .box5{
+  background:#2980b9;
+}
