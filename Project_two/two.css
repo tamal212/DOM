@@ -22,9 +22,10 @@ h1,h2,h3,h4,h5,h6{
 #main{
   background-image: linear-gradient(#e74c3c,#d35400);
  width:  90%;
- padding: 35px 25px 5px;
- margin: 25px auto 0;
- border-radius: 20px;
+ height: auto;
+ padding: 10px 15px 5px;
+ margin: 10px 10px;
+ border-radius: 10px;
  box-shadow: 0 0 10px #ddd;
  color: #2c3e50;
 }
@@ -33,6 +34,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 25px;
   margin-bottom: 5px;
   font-weight: 900;
+  padding: 10px;
 }
 #main h2{background:#ddd ;
   display: inline-block;
@@ -42,16 +44,16 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 900;
   padding: 2px 3px;
   border-radius: 4px;
-  margin-top: 0px;
+  margin-top: 1px;
 }
-#main form{margin: 15px 0;}
+#main form{margin:5px 8px;}
 #main label{display: block;
 color: #fff; font-weight: 600;
 margin: 5px ;}
 #main input{
 background-image: linear-gradient(#ff4a69,#ff7060);
 border: 0px;
-padding: 2px 10px;
+padding: 3px 10px;
 color: #fff;
 font-size: 12px;
 font-weight: 100;
@@ -61,6 +63,7 @@ border-radius: 2px;
  
 #main input:focus {
   outline:none;
+
 }
 #main button{
   margin: 10px 0;
@@ -77,7 +80,8 @@ transition: 0.5s;
 #main button:hover{background: #c0392b; color: #fff;
 }
 .result,
-.info{background: #fff;
+.info{
+background: #fff;
 padding: 5px 8px;
 border-radius: 5px;
 }
