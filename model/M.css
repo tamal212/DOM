@@ -68,3 +68,14 @@ color: #262626;
 }
 .result{
 display: none;}
+button{
+   cursor: pointer;
+  margin: 5px 19px;
+  background: #fff;
+  border: none;
+  color: #34495e;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
