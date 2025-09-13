@@ -1,0 +1,66 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,body{
+  height: 100%;
+ 
+}
+body{
+  background-color: #cc8e35;
+  background-image: url(https://images.unsplash.com/photo-1757269746970-dc477517268f?q=80&w=423&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container{ 
+height: auto;
+width: 100%;
+border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.361);
+backdrop-filter: blur(2px);
+text-align: center;
+font-weight: 500;
+padding-top: 8px;
+font-family:'Courier New',  monospace;
+}
+
+#container p{
+color: #000;
+font-size: 15px;
+
+}
+
+
+/* 
+*  #container h4{display: inline-block;color: #fff; background: #000; padding: 2px; margin: 2px; border-radius: 3px; margin-top: 5px ;font-weight: 200; font-size: 9px;}
+*/
+#container h4{
+  display: inline-block;
+  color: #fff; 
+  background: #000; padding: 2px; 
+  margin: 2px; 
+  border-radius: 3px;
+   margin-top: 5px ;
+   font-weight: 200;
+    font-size: 9px;
+  }
+
+#container button{display:block;
+  width: 85px;
+  border: none;
+border-radius: 4px;
+margin:5px auto 5px;
+background: #ffffff;
+color: #262626;
+cursor: pointer;
+}
+
+
+
+
+
