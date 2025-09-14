@@ -1,4 +1,4 @@
-const randomcodes = [
+const randomCodes = [
   {
     code: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     author: 'John Doe'
@@ -21,17 +21,30 @@ const randomcodes = [
   }
 ];
 
-
-
 let textArea = document.querySelector('#load');
 let hTag = document.getElementById('auto');
 let button = document.getElementById('button');
- /*
-*    textArea.textContent = random[3];
- */
 
-button.addEventListener('click', function () {
-  let randomIndex = Math.floor(Math.random() * 5);
+
+
+button.addEventListener('click', function() {
+  let randomIndex = Math.floor(Math.random() * randomCodes.length);
+  // console.log(randomIndex);
+  textArea.textContent = randomCodes[randomIndex].code;
+  hTag.textContent = randomCodes[randomIndex].author;
+});
+
+
+
+ 
+
+/*
+function start() {
+  let randomIndex = Math.floor(Math.random() * randomCodes.length);
  // console.log(randomIndex);
-textArea.textContent = random[randomIndex];
-})
+  textArea.textContent = randomCodes[randomIndex].code;
+  hTag.textContent = randomCodes[randomIndex].author;
+}
+start();
+button.addEventListener('click', start);
+*/

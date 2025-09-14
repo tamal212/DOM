@@ -19,7 +19,7 @@ body{
 }
 #container{ 
 height: auto;
-width: 100%;
+width: 90%;
 border-radius: 5px;
 background-color: rgba(255, 255, 255, 0.361);
 backdrop-filter: blur(2px);
@@ -42,7 +42,8 @@ font-size: 15px;
 #container h4{
   display: inline-block;
   color: #fff; 
-  background: #000; padding: 2px; 
+  background: #000;
+   padding: 2px; 
   margin: 2px; 
   border-radius: 3px;
    margin-top: 5px ;
