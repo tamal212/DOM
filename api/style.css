@@ -1,0 +1,25 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+img{height: auto;
+max-width: 100%;
+
+}
+.img_item{
+ 
+  background:#fff ;
+  box-shadow:0 0 5px #718093;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.img_item img{
+  border-radius: 2px;
+}
+.img_item p{
+  text-align: center;
+  color:#2C3A47;
+}
